@@ -1,0 +1,1217 @@
+/* start glbal */
+*
+{
+    box-sizing:border-box
+}
+body
+{
+    font-family:'Sen', sans-serif
+}
+/* end global */
+/* start framework */
+.h6
+{
+    font-size:15px;
+    color:#90929a
+}
+.h6::before
+{
+    content:"";
+    width:10px;
+    height:2px;
+    background-color:#90929a;
+    top:50%;
+    left:-17%
+}
+.large
+{
+    font-size:25px
+}
+.small
+{
+    color:#90929a;
+    margin-top:20px
+}
+.a
+{
+    margin-right:20px;
+    border-bottom:1px solid #ffc25c;
+}
+.a-arr
+{
+    margin-right:20px
+}
+.a:hover,
+.a-arr:hover
+{
+    text-decoration:none
+}
+.social-links li
+{
+    margin-right:10px
+}
+.social-links li a
+{
+    color:inherit
+}
+.social-links li:hover a .fa-facebook-f
+{
+    color:#3b5998
+}
+.social-links li:hover a .fa-instagram
+{
+    color:#e1306c
+}
+.social-links li:hover a .fa-linkedin-in
+{
+    color:#0077b5
+}
+/* end framework */
+/* start header */
+header .container .brand img
+{
+    width:50px
+}
+header .container .brand h1
+{
+    font-size:40px;
+    margin:50px 0;
+    padding-bottom:10px;
+    z-index:1
+}
+header .container .brand h1::after
+{
+    content:"";
+    height:3px;
+    background-color:#ffc25c;
+    left:4px;
+    bottom:0
+}
+header .container .navigation
+{
+    margin-left:5%
+}
+header .container .navigation ul li
+{
+    margin-right:10px;
+    font-size:20px
+}
+header .container .navigation ul li a
+{
+    color:#666874
+}
+header .container .navigation ul li a::after
+{
+    content:"";
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    left:50%;
+    bottom:-7px;
+    opacity:0
+}
+header .container .navigation ul li:hover a,
+header .container .navigation ul li .active
+{
+    text-decoration:none
+}
+header .container .navigation ul li:hover a::after,
+header .container .navigation ul li .active::after
+{
+    opacity:1
+}
+/* end header */
+/* start contact */
+.contact
+{
+    background-color:#252635
+}
+.contact .container .info .my-no span
+{
+    font-size:10px
+}
+/* end contact */
+/* start works */
+.works .container .products .product
+{
+    background-color:#434658
+}
+.works .container .products .product:last-child
+{
+    margin-right:0
+}
+.works .container .brands .brand
+{
+    width:15%;
+    float:left;
+    height:60px;
+    margin-right:10%
+}
+.works .container .brands .brand img
+{
+    width:100%
+}
+/* start img border */
+.works .container .portfolio .details .bor-top
+{
+    width:0;
+    left:0;
+    height:3px;
+    top:0
+}
+.works .container .portfolio .details .bor-right
+{
+    height:0;
+    top:0;
+    right:0;
+    width:3px
+}
+.works .container .portfolio .details .bor-bottom
+{
+    width:0;
+    height:3px;
+    right:0;
+    bottom:0
+}
+.works .container .portfolio .details .bor-left
+{
+    height:0;
+    left:0;
+    bottom:0;
+    width:3px
+}
+.works .container .portfolio .details:hover .bor-top
+{
+    width:100%;
+    left:0;
+    height:3px;
+    top:0
+}
+.works .container .portfolio .details:hover .bor-right
+{
+    height:100%;
+    top:0;
+    right:0;
+    width:3px
+}
+.works .container .portfolio .details:hover .bor-bottom
+{
+    width:100%;
+    height:3px;
+    right:0;
+    bottom:0
+}
+.works .container .portfolio .details:hover .bor-left
+{
+    height:100%;
+    left:0;
+    bottom:0;
+    width:3px
+}
+/* end img border */
+/* end works */
+/* start blog */
+.blog
+{
+    background-color:#252635
+}
+.blog .container .timeline .my-blog .h6::before
+{
+    top:47%;
+    left:-40%
+}
+.blog .container .timeline ul li
+{
+    border-bottom:1px solid #90929a;
+    font-size:20px
+}
+.blog .container .timeline ul li span
+{
+    font-size:15px;
+    top:5px;
+    display:block
+}
+.blog .container .timeline ul li a
+{
+    margin:0;
+    font-size:15px
+}
+.blog .container .carousel .carousel-indicators li
+{
+    background-color:#434658;
+    opacity:1;
+    width:50px;
+    height:7px;
+    margin-right:30px;
+    margin-left:0
+}
+.blog .container .carousel .carousel-inner .carousel-item .testmonials i
+{
+    color:#434658
+}
+.blog .container .carousel .carousel-inner .carousel-item .testmonials .writer .name
+{
+    display:block
+}
+/* end blog */
+/* start footer */
+footer .container .hire .requiers ul
+{
+    font-size:20px
+}
+footer .container .hire .requiers ul li
+{
+    border-bottom:1px solid #434658
+}
+footer .container .hire .requiers ul li div
+{
+    float:right
+}
+footer .container .hire .requiers ul li .submit input
+{
+    background:none;
+    width:25px;
+    height:25px;
+    z-index:1
+}
+footer .container .hire .requiers ul li .submit i
+{
+    left:4px;
+    top:3px;
+    z-index:0
+}
+footer .container .hire .requiers ul li .file input
+{
+    z-index:1;
+    width:30px;
+    height:30px;
+    opacity:0;
+    cursor:pointer 
+}
+footer .container .hire .requiers ul li .file i
+{
+    z-index:0;
+    left:6px;
+    top:5px;
+    color:#434658
+}
+footer .container .end
+{
+    text-align:center
+}
+footer .container .end p
+{
+    font-size:15px;
+    margin:30px 0
+}
+/* end footer */
+/* start grouping */
+.h6,
+header .container .brand h1,
+header .container .brand .brand-img,
+header .container .navigation ul li,
+.works .container .portfolio .details,
+.blog .container .timeline ul li span,
+footer .container .hire .requiers ul li div,
+footer .container .hire .requiers ul li .submit input,
+footer .container .hire .requiers ul li .file input
+{
+    position:relative;
+}
+.h6,
+.social-links li,
+header .container .navigation ul li,
+.contact .container .info .my-no span,
+.works .container .portfolio .details
+{
+    display:inline-block
+}
+.h6::before,
+header .container .brand h1::after,
+header .container .navigation ul li a::after,
+.works .container .portfolio .details span,
+footer .container .hire .requiers ul li .submit i,
+footer .container .hire .requiers ul li .file i
+{
+    position:absolute
+}
+.a,
+.a-arr,
+.a:hover,
+.a-arr:hover,
+.contact .container .info .my-no,
+footer .container .hire .requiers ul li .submit i
+{
+    color:#ffc25c
+}
+.social-links li a i,
+header .container .navigation ul li a,
+header .container .navigation ul li a::after,
+.works .container .products .product,
+.works .container .portfolio .details span
+{
+    transition:all .3s ease-in-out
+}
+header,
+.works,
+footer
+{
+    background-color:#333645
+}
+header,
+header .container .navigation ul li:hover a,
+header .container .navigation ul li .active,
+.contact,
+.contact .container .info .my-no span,
+.works,
+.blog,
+footer
+{
+    color:#ebebec
+}
+header,
+header .container .brand,
+.contact,
+.works .container .products,
+.works .container .brands,
+.works .container .brands .brand,
+.works .container .portfolio,
+.blog .container .timeline,
+.blog .container .timeline ul li,
+.blog .container .carousel .carousel-inner .carousel-item,
+footer .container .hire
+{
+    overflow:hidden
+}
+.a,
+.a-arr,
+header .container .brand h1,
+.contact .container .info .my-no span
+{
+    font-weight:bold
+}
+header .container .brand h1::after,
+header .container .navigation ul li a::after,
+.works .container .products .product:hover,
+.works .container .portfolio .details span,
+.blog .container .carousel .carousel-indicators .active
+{
+    background-color:#ffc25c
+}
+header .container .navigation ul li,
+.social-links li,
+.blog .container .timeline ul li,
+footer .container .hire .requiers ul li
+{
+    list-style:none
+}
+header .container .navigation ul li,
+.h6,
+.large,
+.contact .container .info .my-no span
+{
+    text-transform:capitalize
+}
+.contact .container .info .large,
+footer .container .hire .information .large,
+footer .container .hire .requiers .large,
+footer .container .end p
+{
+    text-transform:none
+}
+.blog .container .timeline ul li:last-child,
+.blog .container .timeline ul li a,
+footer .container .hire .information .link a,
+footer .container .hire .requiers ul li:last-child,
+footer .container .hire .requiers ul li .submit input
+{
+    border:none
+}
+.social-links,
+header .container .navigation ul,
+.blog .container .timeline ul,
+footer .container .hire .requiers ul,
+footer .container .hire .requiers ul li .submit input
+{
+    padding:0
+}
+/* end grouping*/
+/** start media responsive **/
+/* start responsive for max width 479px*/
+@media (max-width:479px)
+{
+    /* start framework */
+    .large
+    {
+        font-size:19px
+    }
+    .small
+    {
+        font-size:10px
+    }
+    .social-links li
+    {
+        display:flow-root;
+        margin:0
+    }
+    /* end framework */
+    /* start header */
+    header
+    {
+        height:785px;
+        padding-top:20px;
+        text-align:center
+    }
+    header .container .brand
+    {
+        width:100%
+    }
+    header .container .brand img
+    {
+        float:right
+    }
+    header .container .brand h1
+    {
+        margin:-10px 0 0;
+        float:left;
+        text-align:left
+    }
+    header .container .brand h1::after
+    {
+        width:25px;
+    }
+    header .container .brand .brand-img
+    {
+        top:80px;
+        left:-10%
+    }
+    header .container .brand .brand-img img
+    {
+        width:300px
+    }
+    header .container .navigation
+    {
+        width:100%;
+        background-color:#252635;
+        margin-left:0
+    }
+    header .container .navigation ul li
+    {
+        font-size:20px;
+        margin-top:1rem
+    }
+    header .container .navigation article
+    {
+        margin-top:30px
+    }
+    header .container .navigation .link
+    {
+        margin-top:-3px
+    }
+    /* end header */
+    /* start contact */
+    .contact
+    {
+        padding-top:80px;
+        height:650px;
+        text-align:center
+    }
+    .contact .container .mail .link
+    {
+        margin:20px 0 40px
+    }
+    .contact .container .info .my-no
+    {
+        font-size:50px
+    }
+    /* end contact */
+    /* start works */
+    .works
+    {
+        text-align:center
+    }
+    .works .container .products .product
+    {
+        margin:10px 15%;
+        padding:50px 0
+    }
+    .works .container .products .product:last-child
+    {
+        margin-right:15%
+    }
+    .works .container .products .product i
+    {
+        margin:15px 0
+    }
+    .works .container .brands
+    {
+        margin:20px 8% 20px 15%
+    }
+    .works .container .portfolio .details
+    {
+        margin:25px 0
+    }
+    .works .container .portfolio .details img
+    {
+        width:290px
+    }
+    .works .container .portfolio .details .link
+    {
+        margin-top:30px
+    }
+    /* end works */
+    /* start blog */
+    .blog
+    {
+        padding:80px 0;
+        text-align:center
+    }
+    .blog .container .timeline ul li
+    {
+        padding:15px 0
+    }
+    .blog .container .timeline ul li p
+    {
+        display:block
+    }
+    .blog .container .carousel .carousel-indicators
+    {
+        bottom:-70px
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .personal img
+    {
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials
+    {
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials i
+    {
+        font-size:15px;
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials p
+    {
+        font-size:15px;
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials .writer
+    {
+        margin-top:20px;
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials .writer .name
+    {
+        font-size:15px
+    }
+    /* end blog */
+    /* start footer */
+    footer
+    {
+        padding-top:80px;
+        text-align:center
+    }
+    footer .container .hire .information .link
+    {
+        margin:30px 0
+    }
+    footer .container .hire .requiers ul li
+    {
+        padding:15px 0;
+        font-size:15px
+    }
+    footer .container .hire .requiers ul li div
+    {
+        margin-right:29%
+    }
+    footer .container .end
+    {
+        padding:50px 0
+    }
+    footer .container .end ul li
+    {
+        display:inline-block;
+        margin:0 10px
+    }
+    /* end footer */
+}
+@media (min-width:480px)
+{
+    /* start header */
+    header
+    {
+        height:600px;
+        padding-top:30px
+    }
+    header .container .brand
+    {
+        width:100%
+    }
+    header .container .brand ul
+    {
+        top:-245px;
+        float:right;
+        position:relative
+    }
+    header .container .brand h1::after
+    {
+        width:25px;
+    }
+    header .container .brand .brand-img
+    {
+        top:35px;
+        left:15%;
+        float:right
+    }
+    header .container .brand .brand-img img
+    {
+        width:250px
+    }
+    header .container .navigation
+    {
+        width:100%;
+        text-align:left;
+        position:relative;
+        top:-310px
+    }
+    header .container .navigation ul
+    {
+        float:right;
+        position:relative;
+        top:-109px;
+        z-index:1
+    }
+    header .container .navigation ul li
+    {
+        font-size:20px;
+        margin-top:1rem
+    }
+    header .container .navigation article
+    {
+        margin-top:0
+    }
+    header .container .navigation .link
+    {
+        margin-top:20px;
+        margin-left:15px
+    }
+    /* end header */
+    /* start contact */
+    .contact
+    {
+        padding-top:50px;
+        height:700px;
+        text-align:center
+    }
+    .contact .container .mail .link
+    {
+        margin:20px 0 40px
+    }
+    .contact .container .info .my-no
+    {
+        font-size:50px
+    }
+    /* end contact */
+    /* start works */
+    .works
+    {
+        text-align:center
+    }
+    .works .container .products .product
+    {
+        margin:20px 0;
+        padding:50px 0
+    }
+    .works .container .products .product i
+    {
+        margin:15px 0
+    }
+    .works .container .brands
+    {
+        margin:20px 0 20px 10%
+    }
+    .works .container .portfolio .details
+    {
+        margin:25px 0;
+    }
+    .works .container .portfolio .details img
+    {
+        width:350px
+    }
+    .works .container .portfolio .details .link
+    {
+        margin-top:30px
+    }
+    /* end works */
+    /* start blog */
+    .blog
+    {
+        padding:50px 0;
+        text-align:center
+    }
+    .blog .container .timeline
+    {
+        margin-bottom:35px
+    }
+    .blog .container .timeline ul li
+    {
+        padding:15px 0
+    }
+    .blog .container .timeline ul li p
+    {
+        display:block
+    }
+    .blog .container .carousel .carousel-indicators
+    {
+        bottom:-55px
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .personal img
+    {
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials
+    {
+        visibility:visible !important;
+        animation-name:fadeInUp !important;
+        margin-top:25px
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials i
+    {
+        font-size:20px;
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials p
+    {
+        font-size:20px;
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials .writer
+    {
+        margin-top:20px;
+        visibility:visible !important;
+        animation-name:fadeInUp !important
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials .writer .name
+    {
+        font-size:15px
+    }
+    /* end blog */
+    /* start footer */
+    footer
+    {
+        padding-top:80px;
+        text-align:center
+    }
+    footer .container .hire .information .link
+    {
+        margin:30px 0
+    }
+    footer .container .hire .requiers ul li
+    {
+        padding:15px 0;
+        font-size:15px
+    }
+    footer .container .hire .requiers ul li div
+    {
+        margin-right:29%
+    }
+    footer .container .end
+    {
+        padding:50px 0
+    }
+    footer .container .end ul li
+    {
+        display:inline-block;
+        margin:0 10px
+    }
+    /* end footer */
+}
+/* end responsive for max width 479px */
+@media(min-width:768px)
+{
+    /* start framework */
+    .large
+    {
+        font-size:20px
+    }
+    /* end framework */
+    /* start header */
+    header
+    {
+        height:445px
+    }
+    header .container .brand
+    {
+        width:55%;
+        float:left
+    }
+    header .container .brand ul
+    {
+        top:30px;
+        float:unset
+    }
+    header .container .brand h1
+    {
+        font-size:65px;
+        margin:30px 0
+    }
+    header .container .brand h1::after
+    {
+        width:41px
+    }
+    header .container .brand .brand-img
+    {
+        left:34%;
+        top:-215px;
+        float:unset
+    }
+    header .container .navigation
+    {
+        width:35%;
+        float:left;
+        position:unset
+    }
+    header .container .navigation ul
+    {
+        position:unset;
+        float:unset
+    }
+    header .container .navigation article
+    {
+        margin-top:50px
+    }
+    header .container .navigation .link
+    {
+        margin-top:25px
+    }
+    /* end header */
+    /* start contact */
+    .contact
+    {
+        height:470px;
+        text-align:left
+    }
+    .contact .container .mail,
+    .contact .container .info
+    {
+        width:50%;
+        float:left
+    }
+    .contact .container .mail .link
+    {
+        margin-top:40px
+    }
+    .contact .container .info .my-no
+    {
+        width:50%;
+        float:left
+    }
+    /* end contact */
+    /* start works */
+    .works
+    {
+        text-align:left
+    }
+    .works .container .products
+    {
+        top:-150px;
+        position:relative;
+        text-align:center
+    }
+    .works .container .products .product
+    {
+        width:31.333333333%;
+        margin-right:3%;
+        float:left;
+        padding:90px 60px 30px
+    }
+    .works .container .brands
+    {
+        margin-left:8%;
+        margin-top:-100px
+    }
+    .works .container .portfolio .details
+    {
+        width:46%;
+        margin:25px 2%;
+        text-align:left;
+        float:left
+    }
+    .works .container .portfolio .details img
+    {
+        width:100%
+    }
+    .works .container .portfolio .details .link
+    {
+        margin-top:35px
+    }
+    /* end works */
+    /* start blog */
+    .blog
+    {
+        text-align:left
+    }
+    .blog .container .timeline
+    {
+        margin-bottom:50px
+    }
+    .blog .container .timeline .my-blog
+    {
+        width:40%;
+        float:left
+    }
+    .blog .container .timeline ul
+    {
+        width:60%;
+        float:left
+    }
+    .blog .container .timeline ul li
+    {
+        padding:10px 0
+    }
+    .blog .container .timeline ul li span
+    {
+        margin-bottom:10px
+    }
+    .blog .container .timeline ul li p
+    {
+        display:inline-block
+    }
+    .blog .container .timeline ul li a
+    {
+        float:right;
+    }
+    .blog .container .carousel .carousel-indicators
+    {
+        margin-left:30%;
+        bottom:-25px
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .personal
+    {
+        width:40%;
+        float:left
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .personal img
+    {
+        width:220px;
+        border-radius:10px;
+        height:unset
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials
+    {
+        float:left;
+        width:60%;
+        margin-top:0
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials p
+    {
+        margin:1rem 0
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials .writer
+    {
+        margin-top:35px
+    }
+    .blog .container .carousel .carousel-inner .carousel-item .testmonials .writer .name
+    {
+        font-size:20px
+    }
+    /* end blog */
+    /* start footer */
+    footer
+    {
+        padding-top:50px;
+        text-align:left
+    }
+    footer .container .hire .information,
+    footer .container .hire .requiers
+    {
+        width:50%;
+        float:left
+    }
+    footer .container .hire .information .link
+    {
+        margin-top:60px
+    }
+    footer .container .hire .requiers ul li
+    {
+        padding:20px 0;
+    }
+    footer .container .hire .requiers ul li div
+    {
+        margin-left:10px
+    }
+    footer .container .end
+    {
+        padding:100px 0
+    }
+    /* end footer */
+}
+/* end responsive for width from 480px to 767px */
+@media(min-width:1200px)
+{
+    /* start framework */
+    .large
+    {
+        font-size:25px
+    }
+    .social-links
+    {
+        position:relative;
+        top:30px
+    }
+    /* end framework */
+    /* start header */
+    header
+    {
+        height:600px;
+        padding-top:50px
+    }
+    header .container .brand h1
+    {
+        font-size:80px;
+        padding-bottom:20px;
+        margin:50px 0
+    }
+    header .container .brand h1::after
+    {
+        width:52px;
+        left:8px
+    }
+    header .container .brand .brand-img
+    {
+        left:34%;
+        top:-350px
+    }
+    header .container .brand .brand-img img
+    {
+        width:400px
+    }
+    header .container .navigation ul li
+    {
+        font-size:25px
+    }
+    header .container .navigation article
+    {
+        margin-top:100px
+    }
+    header .container .navigation .link
+    {
+        margin-top:51px
+    }
+    /* end header */
+    /* start contact */
+    .contact
+    {
+        padding-top:100px;
+        height:650px
+    }
+    .contact .container .mail .link
+    {
+        margin-top:75px
+    }
+    .contact .container .info .my-no
+    {
+        font-size:60px
+    }
+    .contact .container .info .my-no:last-child
+    {
+        margin-left:-60px
+    }
+    /* end contact */
+    /* start works */
+    .works .container .products .product
+    {
+        width:30.333333333%;
+        margin-right:2%;
+        padding:95px 100px 55px 120px
+    }
+    .works .container .products .product h3
+    {
+        text-align:left
+    }
+    .works .container .products .product i
+    {
+        position:relative;
+        left:-95px;
+        top:45px
+    }
+    .works .container .brands
+    {
+        overflow:hidden;
+        margin-left:10%
+    }
+    .works .container .brands .brand
+    {
+        margin-bottom:40px
+    }
+    .works .container .portfolio .details
+    {
+        width:45%;
+        float:left;
+        margin:70px 0 70px 5%;
+    }
+    .works .container .portfolio .details:nth-child(2)
+    {
+        top:25px
+    }
+    .works .container .portfolio .details:nth-child(3)
+    {
+        top:-230px
+    }
+    .works .container .portfolio .details .link
+    {
+        margin-top:70px
+    }
+    /* end works */
+    /* start blog */
+    .blog
+    {
+        padding:100px 0
+    }
+    .blog .container .timeline
+    {
+        margin-bottom:70px
+    }
+    .blog .container .timeline ul li
+    {
+        padding:25px 0
+    }
+    .blog .container .timeline ul li span
+    {
+        margin-right:50px
+    }
+    .blog .container .timeline ul li p
+    {
+        display:inline-block
+    }
+    .blog .container .carousel .carousel-indicators
+    {
+        margin-left:18%
+    }
+    /* end blog */
+    /* start footer */
+    footer
+    {
+        padding-top:100px
+    }
+    footer .container .end
+    {
+        padding:150px 0
+    }
+    /* end footer */
+}
